@@ -8,6 +8,7 @@ import java.util.List;
  * Fast Indexes and Algorithms for Set Similarity Selection Queries by Hadjieleftheriou et al.
  */
 public class ShortestFirstAlgorithm<T> {
+	private List<String> s;
 	private List<List<T>> database;
 	
 	public ShortestFirstAlgorithm(List<List<T>> database) {
